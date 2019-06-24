@@ -6,7 +6,7 @@ body{
 
 p{
   margin:0;
-  line-height:1.5em;
+  line-height:2em;
 }
 
 img{
@@ -24,7 +24,20 @@ a:hover, a:focus , a:active{
 
 .box{
   background:#fff;
+  padding:20px
 /*box-shadow:0px 5px 10px rgba(0,0,0,0.1);*/
+}
+
+.dark_model{
+  background: #0e0e0e;
+}
+
+.dark_model p{
+  color:rgba(255,255,255,0.8);
+}
+
+.dark_model .box{
+  background: #171717;
 }
 
 .padding_20{
@@ -36,7 +49,6 @@ a:hover, a:focus , a:active{
 }
 
 .header{
-  padding:40px 20px;
   margin-bottom:20px;
   text-align:center;
 }
@@ -66,21 +78,19 @@ a:hover, a:focus , a:active{
 }
 
 .content_wrapper{
-  padding-left:20px;
-  width:80%;
   display:block;
+}
+
+.content{
+  margin-top:10px; 
 }
 
 .diary_item{
   display:block;
 }
 
-.diary_title{
-  padding:20px;
-}
-
 .diary_time{
   font-size:0.75em;
   color:#aaaaaa;
-  padding:0 20px 20px 20px;
+  margin-top:20px;
 }
