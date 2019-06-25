@@ -2,12 +2,12 @@ body{
   background:#f3f1f4;
   padding:0;
   margin:0;
-  display:none;
 }
 
 p{
   margin:0;
   line-height:2em;
+  text-align:justify;
 }
 
 img{
@@ -31,7 +31,6 @@ a:hover, a:focus , a:active{
 
 .dark_model{
   background: #0e0e0e;
-  display:none;
 }
 
 .dark_model p{
@@ -89,6 +88,14 @@ a:hover, a:focus , a:active{
 
 .diary_item{
   display:block;
+}
+
+.diary_content{
+  margin-top:20px;
+}
+
+.diary_content:first-child{
+  margin-top:0;
 }
 
 .diary_time{
