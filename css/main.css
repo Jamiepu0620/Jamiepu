@@ -31,6 +31,7 @@ a:hover, a:focus , a:active{
 
 .dark_model{
   background: #0e0e0e;
+  display:none;
 }
 
 .dark_model p{
